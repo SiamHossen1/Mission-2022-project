@@ -1,0 +1,231 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.flexible-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.half-width{
+    width: 48%;
+    padding: 2% 2% 0% 2%;
+    height: 450px;
+} 
+
+.half-width img{
+    width: 80%;
+    height: 100%;
+}
+
+.stayfocus{
+    font-size: 50px;
+    margin-bottom: 0px;
+    color: rgb(44, 44, 44);
+}
+
+.mission22{
+    font-size: 50px;
+    color: rgb(224, 170, 98);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.transform22{
+    font-size: 20px;
+    color: rgb(58, 57, 57);
+}
+
+.btn{
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 10px 25px 10px 25px;
+}
+
+.scroll{
+    font-size: 15px;
+    color: rgb(61, 61, 61);
+    margin-top: 30px;
+}
+
+.first-picture{
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.extra-padding{
+    padding-left: 150px;
+}
+
+.extra-padding h1::before{
+    content: "";
+    height: 114px;
+    width: 5px;
+    background: tomato;
+    margin-right: 15px;
+    position: absolute;
+    top: 87px;
+    left: 138px;
+}
+
+.padding-bot{
+    margin-bottom: 100px;
+}
+
+/* section 1 ends  */
+
+.mymission{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(48, 44, 56);
+}
+
+.mymission span{
+    color: rgb(223, 161, 81);
+}
+
+.box{
+    width: 25%;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.box img{
+    width: 40%;
+}
+
+.box h3{
+    font-size: 25px;
+    color: rgb(68, 68, 68);
+    padding-left: 20px;
+    text-align: left;
+}
+
+.box p{
+    padding-left: 20px;
+}
+
+.extra-padding-2{
+    margin-left: 150px;
+}
+
+.flexible-container .box:nth-child(1){
+    background-color: #d8e0e7;
+}
+
+.flexible-container .box:nth-child(2){
+    background-color: #FFE4E1;
+}
+
+.flexible-container .box:nth-child(3){
+    background-color: #fcdeb7;
+}
+
+/* section 2 end  */
+
+.coding img{
+    width: 70%;
+    margin-left: 150px;
+}
+
+.coding-2 h2{
+    font-size: 40px;
+    font-weight: 900;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+}
+
+.coding-2 p{
+    padding-bottom: 10px;
+    padding-right: 150px;
+    color: rgb(75, 73, 73);
+}
+
+.bg-pic1{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position:80px;
+    margin-bottom: 100px;
+}
+
+/* section 3 ends  */
+
+.coding-3{
+    margin-left: 150px;
+}
+
+.coding-3 p{
+    padding-right: 7%;
+}
+
+.coding-1{
+    margin-right: 160px;
+}
+
+.coding-1 img{
+    width: 100%;
+}
+
+.bg-pic2{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: 1070px 320px;
+    padding-bottom: 80px;
+}
+
+/* section 4 ends  */
+
+.my-section h1{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(53, 53, 53);
+    margin-bottom: 10px;
+}
+
+.my-section h1 span{
+    color: rgb(223, 161, 81);
+}
+
+.my-section input{
+    font-size: 28px;
+    border-radius: 5px;
+    border: 3px solid gray;
+    margin-left: 530px;
+}
+
+.my-section{
+    background-image: url(images/shapes/shape-4.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: 600px;
+    padding-bottom: 100px;
+}
+
+/* section 5 ends  */
+
+footer{
+    background-color: black;
+    height: 200px;
+}
+
+footer h2{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 35px;
+}
+
+footer h2 span{
+    color: tomato;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+}
